@@ -1,0 +1,184 @@
+*, *[type="checkbox"], *[type="time"], *[type="date"], *:hover, *:after,*:focus, *:checked, *:active, *::placeholder, *:selection{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: auto;
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    background-color: powderblue;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    color: #000;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    /*    background-image: url(../images/background4.jpg); */
+    background-position: 0px 0px;
+    /* background-repeat: round; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+ul{
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    padding-bottom: 141px;
+}
+ul>li{
+    display: inline-flex;
+    /* float: unset; */
+    /* margin: 20px; */
+    margin: 5px 12px;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: 'Ubuntu';
+    font-size: 15pt;
+    text-decoration: none;
+    background-color: gainsboro;;
+}
+
+table {
+ /*   border: 1px solid deepskyblue;*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+tr {
+   /* border: 2px dotted darkred;*/
+
+}
+
+td {
+    text-align: center;;
+    width: 88px;
+}
+
+thead > tr > td {
+    transform: rotate(-56deg);
+    transform-origin: 8px;
+}
+
+th.rotate {
+    height: 85px;
+    white-space: nowrap;
+    max-width: 19px;
+}
+
+th.rotate > div {
+    transform: translate(5px, -3px) rotate(90deg)
+}
+
+th.rotate > div > span {
+    border-bottom: 2px solid black;
+    padding: 5px 0px;
+    display: inline-block;
+    position: relative;
+    left: -10px;
+}
+
+p {
+    color: red;
+}
+
+.pull-right td {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1px;
+    box-shadow: 2px 1px 3px #888888;
+    border: none;
+    white-space: pre-line;
+    width: 9%;
+}
+
+.pull-right table {
+    width: min-content;
+}
+
+td>ul{
+    padding: 1px;
+    margin: 1px;
+}
+
+form {
+    margin: 0;
+}
+
+#newId {
+    background: gold
+}
+
+#demo {
+    font-size: 15px;
+    position: relative;
+    bottom: 0px;
+    background: white;
+    width: 200px;
+    left: 10%;
+    padding: 10px;
+}
+
+.input-edit {
+    display: inline-block;
+    width: 75px;
+}
+
+#hlavna_tabulka {
+    margin-top: 35px;
+}
+
+th, td {
+    width: 9%;
+/*    border: 1px solid black; */
+}
+
+table, thead, tbody, tfoot {
+    width: 100%
+}
+
+.input_id {
+    width: auto;
+}
+
+.input_id {
+    width: 68%;
+    border-radius: 9px;
+    background-color: #f8f8f8;
+}
+
+input {
+    border: 2px;
+}
+
+input[type=submit]:hover {
+    background: green;
+}
+form {
+/*    border: 1px solid white;*/
+}
+form :hover {
+    border: 1px solid darkslateblue;
+}
+td{
+    border: 1px solid white;
+}
+td :hover {
+    border: 1px solid darkslateblue;
+}
+
